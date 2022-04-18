@@ -146,9 +146,6 @@ git commit -m "front-end, back-end, httpie"
 git push origin dev
 ```
 
-Build a backend server that returns microservices using **NODE** that return the data in **TSLA_current.json** & **TSLA_news.json** with unit testing.
-## Create back-end branch for current feature
-
 1. Create new branch off dev branch
 
 ```
@@ -180,6 +177,39 @@ nest g controller current
 ```
 http GET http://localhost:3000/current/
 ```
+
+
+1. Create new branch off dev branch
+
+```
+git checkout dev
+git checkout -b feature/add_news_rest_endpoint
+```
+
+1. use Nest.JS to add a service
+
+```
+nest generate service News
+```
+
+1. Use Nest.JS to add a controller
+
+```
+cd backend
+nest g controller News
+```
+
+1. Test with httpie
+
+```
+http GET http://localhost:3000/news/
+```
+
+
+
+
+
+
 
 
 
