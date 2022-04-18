@@ -127,18 +127,60 @@ Hello World!
 
 httpie proves the nest.js back-end is working correctly.
 
-## Create Development branch
+## Commit and Push Everything so Far
+
+1. Create Development branch
 
 ```
+git branch -M main
 git checkout -b dev
 ```
 
+1. Delete backend/.git
 
+1. Commit everything so far
 
 ```
 git add .
-git commit adds "front-end, back-end, httpie"
+git commit -m "front-end, back-end, httpie"
+git push origin dev
 ```
+
+Build a backend server that returns microservices using **NODE** that return the data in **TSLA_current.json** & **TSLA_news.json** with unit testing.
+## Create back-end branch for current feature
+
+1. Create new branch off dev branch
+
+```
+git checkout dev
+git checkout -b feature/add_current_rest_endpoint
+```
+
+1. use Nest.Js to create an Interface 
+
+```
+nest generate interface PageProps
+```
+
+1. use Nest.JS to add a service
+
+```
+nest generate service PageProps
+```
+
+1. Use Nest.JS to add a controller
+
+```
+cd backend
+nest g controller current
+```
+
+1. Test with httpie
+
+```
+http GET http://localhost:3000/current/
+```
+
 
 
 
