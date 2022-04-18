@@ -1,0 +1,91 @@
+{
+	"results": [{
+		"id": "NffM9zdw8GIAYnxSh34YzwzdfBlvkgh7Va5S8X4NWNk",
+		"publisher": {
+			"name": "The Motley Fool",
+			"homepage_url": "https://www.fool.com/",
+			"logo_url": "https://s3.polygon.io/public/assets/news/logos/themotleyfool.svg",
+			"favicon_url": "https://s3.polygon.io/public/assets/news/favicons/themotleyfool.ico"
+		},
+		"title": "Why Dogecoin Is Up Today",
+		"author": "newsfeedback@fool.com (Bram Berkowitz)",
+		"published_utc": "2022-04-15T17:57:32Z",
+		"article_url": "https://www.fool.com/investing/2022/04/15/why-dogecoin-is-up-today/",
+		"tickers": ["TSLA", "TWTR", "HOOD"],
+		"image_url": "https://g.foolcdn.com/editorial/images/674881/generic-upward-5-getty.jpg",
+		"description": "The cryptocurrency has been in the news a lot lately due to Elon Musk's attempt to buy Twitter.",
+		"keywords": ["investing"]
+	}, {
+		"id": "eG7I_-s6TQy-gyVHxTX0x0T_OAwZyTaQs_SBaxxMRlU",
+		"publisher": {
+			"name": "Quartz",
+			"homepage_url": "https://qz.com/",
+			"logo_url": "https://s3.polygon.io/public/assets/news/logos/quartz.svg",
+			"favicon_url": "https://s3.polygon.io/public/assets/news/favicons/quartz.ico"
+		},
+		"title": "Twitter founder Jack Dorsey finally tweets about Elon Musk’s takeover bid",
+		"author": "Adario Strange",
+		"published_utc": "2022-04-15T17:46:41Z",
+		"article_url": "https://qz.com/2155546/twitter-founder-jack-dorsey-tweet-about-elon-musks-takeover-bid/",
+		"tickers": ["TSLA", "TWTR"],
+		"amp_url": "https://qz.com/2155546/twitter-founder-jack-dorsey-tweet-about-elon-musks-takeover-bid/amp/",
+		"image_url": "https://cms.qz.com/wp-content/uploads/2022/04/2021-03-22T000000Z_151409055_RC2HGM9T4Q17_RTRMADP_3_TWITTER-DORSEY-NFT-e1650037314677.jpg?quality=75&strip=all&w=1200&h=630&crop=1",
+		"description": "What Twitter founder Jack Dorsey thinks about Elon Musk's takeover bid",
+		"keywords": ["Uncategorized", "acquisitions", "Business", "Edited by Annaliese Griffin", "Elon Musk", "Jack Dorsey", "Parag Agrawal", "Technology", "twitter"]
+	}, {
+		"id": "XtgykCCvhXR9Yvc96JZlnycv1mbnKYGhF95BItS1sME",
+		"publisher": {
+			"name": "Quartz",
+			"homepage_url": "https://qz.com/",
+			"logo_url": "https://s3.polygon.io/public/assets/news/logos/quartz.svg",
+			"favicon_url": "https://s3.polygon.io/public/assets/news/favicons/quartz.ico"
+		},
+		"title": "Elon Musk embodies the quality people hate most in a boss",
+		"author": "Sarah Todd",
+		"published_utc": "2022-04-15T16:53:54Z",
+		"article_url": "https://qz.com/work/2155499/elon-musk-embodies-the-quality-people-hate-most-in-a-boss/",
+		"tickers": ["TSLA", "TWTR"],
+		"amp_url": "https://qz.com/work/2155499/elon-musk-embodies-the-quality-people-hate-most-in-a-boss/amp/",
+		"image_url": "https://cms.qz.com/wp-content/uploads/2022/04/ElonMuskTwitter.jpg?quality=75&strip=all&w=1200&h=630&crop=1",
+		"description": "Twitter employees are reportedly concerned about Elon Musk taking over the company given his history of volatility at Tesla and elsewhere.",
+		"keywords": ["How to Manage People", "Business", "company culture", "Corporate culture", "Edited by Heather Landy", "Elon Musk", "employees", "labor", "leadership", "management", "SpaceX", "Tesla", "twitter", "unpredictability", "volatility", "work"]
+	}, {
+		"id": "LkrcAlC76Cq88IqnRz226N7zJgKMz9zfknBru7x9Yq0",
+		"publisher": {
+			"name": "Benzinga",
+			"homepage_url": "https://www.benzinga.com/",
+			"logo_url": "https://s3.polygon.io/public/assets/news/logos/benzinga.svg",
+			"favicon_url": "https://s3.polygon.io/public/assets/news/favicons/benzinga.ico"
+		},
+		"title": "Tesla's Optimus Robot Could Arrive As Soon As EV Full Self-Driving",
+		"author": "Adam Eckert",
+		"published_utc": "2022-04-15T16:53:51Z",
+		"article_url": "https://www.benzinga.com/news/22/04/26644087/teslas-optimus-robot-could-arrive-as-soon-as-ev-full-self-driving",
+		"tickers": ["TSLA"],
+		"amp_url": "https://www.benzinga.com/amp/content/26644087",
+		"image_url": "https://cdn.benzinga.com/files/imagecache/og_image_social_share_1200x630/images/story/2022/04/14/0x0-kjc_5055-1.jpg",
+		"description": "During Tesla Inc's (NASDAQ: TSLA) most recent earnings call, CEO Elon Musk laid out expectations for achieving full self-driving in 2022, but he noted the company's main priority in terms of products was to develop an AI humanoid robot it calls Optimus. \nMusk explained how the two are related Thursday in an interview clip that was released during \"TED2022.\"\n\"In order to solve self-driving you really needed to solve real-world AI and at the point at which you solve real-world AI for a car, which is really a robot on four wheels, ...",
+		"keywords": ["News", "Tech"]
+	}, {
+		"id": "aE-nO57W5S36Yn3yPSBZDinnPa5o2xgpbhDhx2bgHUg",
+		"publisher": {
+			"name": "Benzinga",
+			"homepage_url": "https://www.benzinga.com/",
+			"logo_url": "https://s3.polygon.io/public/assets/news/logos/benzinga.svg",
+			"favicon_url": "https://s3.polygon.io/public/assets/news/favicons/benzinga.ico"
+		},
+		"title": "Tesla's Giga Shanghai To Resume Operation Beginning Monday Following Protracted Shutdown: Report",
+		"author": "Shanthi Rexaline",
+		"published_utc": "2022-04-15T16:19:16Z",
+		"article_url": "https://www.benzinga.com/news/22/04/26652438/teslas-giga-shanghai-to-resume-operation-beginning-monday-following-protracted-shutdown-report",
+		"tickers": ["TSLA", "NIO"],
+		"amp_url": "https://www.benzinga.com/amp/content/26652438",
+		"image_url": "https://cdn.benzinga.com/files/imagecache/og_image_social_share_1200x630/images/story/2022/04/15/0x0-web_bodyshop_lights_1.jpg",
+		"description": "Following a three-week shutdown, Tesla Inc.'s (NASDAQ: TSLA) Giga Shanghai could possibly resume operations sooner rather than later.\nWhat Happened:  Tesla is preparing to restart production at its Giga Shanghai on Monday, Reuters reported, citing people familiar with the matter.\nThe EV giant was forced to shutter operations at the Giga Shanghai on March 28 to fall in line with the local government's dictate to control the spread of COVID-19. Local authorities have reportedly given the go-ahead for the resumption, although the final call will depend on how the COVID-19 situation shapes up.\nTesla will presumably test the waters by running a single shift and then gradually ramps up.\nThe COVID-19 production disruption seen since ...",
+		"keywords": ["News", "Global", "Top Stories", "Media"]
+	}],
+	"status": "OK",
+	"request_id": "0e762e6e0bda0b68412ac508c9c6cd20",
+	"count": 5,
+	"next_url": "https://api.polygon.io/v2/reference/news?cursor=YXA9MjAyMi0wNC0xNVQxNiUzQTE5JTNBMTZaJmFzPWFFLW5PNTdXNVMzNlluM3lQU0JaRGlublBhNW8yeGdwYmhEaHgyYmdIVWcmbGltaXQ9NSZvcmRlcj1kZXNjZW5kaW5nJnRpY2tlcj1UU0xB"
+}
