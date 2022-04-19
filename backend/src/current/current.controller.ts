@@ -9,7 +9,6 @@ export class CurrentController {
     @Get()
     async getCurrent(@Req() request: Request) {
       const results = await this.pagePropsService.findAll();
-      console.log('here');
       return results;
     }
 }
