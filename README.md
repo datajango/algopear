@@ -205,14 +205,64 @@ nest g controller News
 http GET http://localhost:3000/news/
 ```
 
+## Hot Reload Back-end
 
+1. First install the required packages:
 
+```
+npm i --save-dev webpack-node-externals run-script-webpack-plugin webpack
+```
 
+1. Once the installation is complete, create a webpack-hmr.config.js file in the root directory of your application.
 
+```
+const nodeExternals = require('webpack-node-externals');
+const { RunScriptWebpackPlugin } = require('run-script-webpack-plugin');
 
+module.exports = function (options, webpack) {
+  return {
+    ...options,
+    entry: ['webpack/hot/poll?100', options.entry],
+    externals: [
+      nodeExternals({
+        allowlist: ['webpack/hot/poll?100'],
+      }),
+    ],
+    plugins: [
+      ...options.plugins,
+      new webpack.HotModuleReplacementPlugin(),
+      new webpack.WatchIgnorePlugin({
+        paths: [/\.js$/, /\.d\.ts$/],
+      }),
+      new RunScriptWebpackPlugin({ name: options.output.filename }),
+    ],
+  };
+};
+```
 
+1. To enable HMR, open the application entry file (main.ts) and add the following webpack-related instructions:
 
+```
 
+declare const module: any;
+
+async function bootstrap() {
+  const app = await NestFactory.create(AppModule);
+  await app.listen(3000);
+
+  if (module.hot) {
+    module.hot.accept();
+    module.hot.dispose(() => app.close());
+  }
+}
+bootstrap();
+```
+
+1. To simplify the execution process, add a script to your package.json file.
+
+```
+"start:dev": "nest build --webpack --webpackPath webpack-hmr.config.js --watch"
+```
 
 
 

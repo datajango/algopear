@@ -7,7 +7,9 @@ export class CurrentController {
     constructor(private readonly pagePropsService: PagePropsService) {}
 
     @Get()
-    getCurrent(@Req() request: Request) {
-      return this.pagePropsService.findAll()
+    async getCurrent(@Req() request: Request) {
+      const results = await this.pagePropsService.findAll();
+      console.log('here');
+      return results;
     }
 }
