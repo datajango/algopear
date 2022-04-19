@@ -264,7 +264,23 @@ bootstrap();
 "start:dev": "nest build --webpack --webpackPath webpack-hmr.config.js --watch"
 ```
 
+## Front-end News Feature
 
+1. Create new branch off dev branch
 
+```
+git checkout dev
+git checkout -b feature/fe_add_news_component
+```
 
+1. Create a news component
+
+1. Fetch news data from API Endpoint
+
+1. ![React News Component](news-component.png)
+  
+1. Issues
+  - Does not link to news item
+  - Ticker tags do not link to anything
+  - Bottom of News image appears to be aligned above the ticker symbols tags.
 
