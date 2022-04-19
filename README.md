@@ -7,9 +7,9 @@ Build a backend server that returns microservices using **NODE** that return the
 Build a **REACT** front end to display the requirements below:
 
 BONUS:  
-    1. Build this in a mono repo using [Next.js](https://nextjs.org/)
-    1. Microservices using [Nest.js](https://docs.nestjs.com/microservices/basics).
-    1. Build end to end tests using [Cypress](https://docs.cypress.io/guides/getting-started/installing-cypress)
+1. Build this in a mono repo using [Next.js](https://nextjs.org/)
+1. Microservices using [Nest.js](https://docs.nestjs.com/microservices/basics).
+1. Build end to end tests using [Cypress](https://docs.cypress.io/guides/getting-started/installing-cypress)
 
 ## Requirements
 
