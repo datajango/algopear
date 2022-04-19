@@ -1,35 +1,41 @@
 import React, { Component } from 'react';
 
+function make_published_when(publisher) {
+  var today = new Date();
+
+  //https://stackoverflow.com/questions/13903897/javascript-return-number-of-days-hours-minutes-seconds-between-two-dates
+  let diffTime = Math.abs(new Date().valueOf() - new Date(publisher.published_utc).valueOf());
+  let days = diffTime / (24*60*60*1000);
+  let hours = (days % 1) * 24;
+  let minutes = (hours % 1) * 60;
+  let secs = (minutes % 1) * 60;
+  [days, hours, minutes, secs] = [Math.floor(days), Math.floor(hours), Math.floor(minutes), Math.floor(secs)]
+
+  let published_when = "";
+  if (days) {
+    published_when += days+" days "
+  }
+  if (hours) {
+    published_when += hours+" hours "
+  }
+  if (minutes) {
+    published_when += minutes+" minutes "
+  }
+  if (secs) {
+    published_when += secs+" secs "
+  }
+
+  published_when += " ago";
+  
+  return published_when;
+}
+
+
 export default class NewsItemComponent extends Component {
   render() {
-      var today = new Date();
-
-      //https://stackoverflow.com/questions/13903897/javascript-return-number-of-days-hours-minutes-seconds-between-two-dates
-      let diffTime = Math.abs(new Date().valueOf() - new Date(this.props.data.published_utc).valueOf());
-      let days = diffTime / (24*60*60*1000);
-      let hours = (days % 1) * 24;
-      let minutes = (hours % 1) * 60;
-      let secs = (minutes % 1) * 60;
-      [days, hours, minutes, secs] = [Math.floor(days), Math.floor(hours), Math.floor(minutes), Math.floor(secs)]
-
+      let published_when = make_published_when(this.props.data.publisher)
       let publisher_logo = <img src={this.props.data.publisher.favicon_url} width="32" height="32"></img>
 
-      let published_when = "";
-      if (days) {
-        published_when += days+" days "
-      }
-      if (hours) {
-        published_when += hours+" hours "
-      }
-      if (minutes) {
-        published_when += minutes+" minutes "
-      }
-      if (secs) {
-        published_when += secs+" secs "
-      }
-
-      published_when += " ago";
-    
       let tags = this.props.data.tickers.map((item, index) => {      
           let key=this.props.data.id + "-" + index;          
           return (

@@ -284,3 +284,15 @@ git checkout -b feature/fe_add_news_component
   - Ticker tags do not link to anything
   - Bottom of News image appears to be aligned above the ticker symbols tags.
 
+## Front-end Graph Feature
+
+1. Create new branch off dev branch
+
+```
+git checkout dev
+git checkout -b feature/fe_add_stock_details_component
+```
+
+1. Create a stock details component
+
+1. ![React Stock Details Component](stock-details-component.png)

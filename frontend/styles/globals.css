@@ -88,3 +88,87 @@ a {
   font-size: large;
   font-weight: 500;
 }
+
+.stock-symbol {
+  font-weight: 700;
+}
+
+.stock-name {
+  font-size: xx-large;
+  font-weight: 700;
+}
+
+.stock-price-section {
+  display: flex;
+  flex-direction: row;  
+  align-items: center;
+}
+
+.stock-share-price {  
+  font-size: xx-large;
+  font-weight: 700;
+  margin-right: .25em;  
+}
+
+.stock-currency {
+  text-align: center; 
+  font-size: large;
+  font-weight: 500;
+  margin-right: .25em;  
+}
+
+.stock-share-change {
+  text-align: center; 
+  font-size: large;
+  font-weight: 500;
+}
+
+.stock-share-bullet {
+  background-color: red;
+  color: white;
+  padding: .5em;
+  font-size: small;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.stock-close-section {
+  display: flex;
+  flex-direction: row;  
+  align-items: center;
+}
+
+.stock-close -price {  
+  font-size: xx-large;
+  font-weight: 700;
+  margin-right: .25em;  
+}
+
+.stock-positions-section {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(4, 100px);
+  background-color: #ededed;
+  padding-top: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 1em;
+}
+
+.stock-positions-label {
+  font-size: medium;
+  font-weight: 500;
+  color: gray;
+}
+
+.stock-positions-value {
+  font-size: medium;
+  font-weight: 500;
+  color: black;
+}
+
+.stock-close-change {
+  font-size: large;
+  font-weight: 500;
+  color: black;
+}
