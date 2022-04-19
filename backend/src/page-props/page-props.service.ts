@@ -35,7 +35,8 @@ export class PagePropsService {
           percentageChange: (( data.pageProps.close - data.pageProps.previousClose) * .10).toFixed(2)
         };
 
-        transformed['data'] =  data.pageProps.filteredAgg[0];
+        transformed['data'] =  data.pageProps.filteredAgg;
+
         return transformed;
     }
 }
